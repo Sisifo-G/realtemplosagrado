@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Diego Velázquez" />
+    <meta
+      name="description"
+      content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600"
+      rel="stylesheet"
+    />
+
+    <!-- Ionic icons-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Animations-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
+    <!-- Material Icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/whats.css">
+    <link rel="stylesheet" href="assets/css/whats2.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/avatar.png" />
+
+    <title>Maestro Heracles</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <img
+          src="assets/images/avatar.png"
+          class="icon-title mr-1"
+          alt="logo"
+        />
+        <h3><a href="#" class="nav-link text-logo">Maestro Heracles</a></h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="assets/images/menu.svg" />
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Servicios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#politics">Política</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- /////////////////
+      VIDEO
+    ////////////////////// -->
+
+    <div class="container-fluid video-fondo">
+      <video autoplay muted loop id="myVideo">
+        <source src="assets/images/vid.mp4" type="video/mp4" />
+      </video>
+      <div id="particles-js"></div>
+    </div>
+
+    <!-- /////////////////
+      Button WhatsApp
+    ////////////////////// -->
+
+    <div class="nav-bottom">    
+      <div class="popup-whatsapp fadeIn">
+        <div class="content-whatsapp -top">
+          <button type="button" class="closePopup">
+            <i class="material-icons icon-font-color">close</i>
+          </button>
+
+          <p>
+            <img src="assets/images/secretary.png" width="50" /> Hola, ¿en que podemos
+            ayudarle?
+          </p>
+        </div>
+        <div class="content-whatsapp -bottom">
+          <input
+            class="whats-input"
+            id="whats-in"
+            type="text"
+            placeholder="Enviar mensaje..."
+          />
+
+          <button class="send-msPopup" id="send-btn" type="button">
+            <i class="material-icons icon-font-color--black">send</i>
+          </button>
+        </div>
+      </div>
+      <button type="button" id="whats-openPopup" class="whatsapp-button">
+        <div class="float">
+          <i class="fa fa-whatsapp my-float"></i>
+        </div>
+      </button>
+      <div class="circle-anime"></div>
+    </div>
+
+    <!-- /////////////////
+      HERO
+    ////////////////////// -->
+
+    <section id="hero" class="bgLightGrey">
+      <div class="container">
+        <div class="content-center">
+          <h1 class="mt-5">Amarres, conjuros y rituales para el amor</h1>
+          <p>
+            Regresa y domina a tu ser amado en 2 días. No te dejes engañar mas.
+            Devolución de dinero si no ves resultados reales. TRABAJOS
+            REALIZADOS COMPLETAMENTE EN VIVO. Somos profesionales del amor con
+            más de 30 años de experiencia en México. Aprovecha esta gran
+            oportunidad y para de sufrir. estoy para ayudarte.
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=526323188867"
+            target="_bank"
+            class="btn btn-secondary mt-4 animate__heartBeat"
+            ><i class="fab fa-whatsapp"></i> Contáctanos</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container-fluid">
+        <div class="content-center">
+          <h2>Nuestros <b>Servicios</b></h2>
+          <p>
+            Conoce mis amarres, podrían tener la solución que tanto buscas...
+            Solo envíame tu caso y cuéntame tu problema, todo es discreto y
+            profesional. Toma la decisión ya y podrías cambiar tu vida ahora.
+          </p>
+        </div>
+        <div class="video-container d-flex justify-content-center col-12">
+          <iframe
+            class="maestro"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/CLyD_ZjeilM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h3>Amarres para toda la vida</h3>
+                </a>
+                <!-- <a href="#">
+                  <p>— Ver mas...</p>
+                </a> -->
+              </div>
+              <img
+                src="assets/images/portfolio-01.jpg"
+                class="img-fluid"
+                alt="Portfolio 01"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h3>Retiro de maldad</h3>
+                </a>
+                <!-- <a href="#">
+                  <p>— Ver mas...</p>
+                </a> -->
+              </div>
+              <img
+                src="assets/images/portfolio-02.jpg"
+                class="img-fluid"
+                alt="Portfolio 02"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h3>Hechizos de amor</h3>
+                </a>
+                <!-- <a href="#">
+                  <p>— Ver mas...</p>
+                </a> -->
+              </div>
+              <img
+                src="assets/images/portfolio-03.jpg"
+                class="img-fluid"
+                alt="Portfolio 03"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h3>Recupera tu pareja</h3>
+                </a>
+                <!-- <a href="#">
+                  <p>— Ver mas...</p>
+                </a> -->
+              </div>
+              <img
+                src="assets/images/portfolio-04.jpg"
+                class="img-fluid"
+                alt="Portfolio 04"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h3>Amarres con foto</h3>
+                </a>
+                <!-- <a href="#">
+                  <p>— Ver mas...</p>
+                </a> -->
+              </div>
+              <img
+                src="assets/images/portfolio-05.jpg"
+                class="img-fluid"
+                alt="Portfolio 05"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio-container">
+              <div class="portfolio-details">
+                <a href="#">
+                  <h3>Amarres para matrimonio</h3>
+                </a>
+                <!-- <a href="#">
+                  <p>— Ver mas...</p>
+                </a> -->
+              </div>
+              <img
+                src="assets/images/portfolio-06.jpg"
+                class="img-fluid"
+                alt="Portfolio 06"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a
+            href="https://api.whatsapp.com/send?phone=526323188867"
+            target="_bank"
+            class="btn btn-secondary mt-4 animate__heartBeat"
+            ><i class="fab fa-whatsapp"></i> Contáctanos</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="bgLightGrey">
+      <div class="container">
+        <div class="content-center">
+          <h2><b>Testimonios</b></h2>
+          <p>
+            Presente para muchos los testimonios de las personas que tuvieron el
+            lujo de vivirlas
+          </p>
+        </div>
+        <!-- tarjetas de los testimonios -->
+        <div class="content-Testimonios d-flex justify-content-center">
+          <!-- Grid -->
+          <div class="row ml-0 mr-0">
+            <div class="col-md-12 col-lg-4 mb-4">
+              <div class="grid-item">
+                <img
+                  src="assets/images/testimonios/testimonio1.jpg"
+                  class="rounded"
+                  alt=""
+                />
+                <div class="d-flex flex-column">
+                  <p class="h3">Sandra Maria Rodriguez</p>
+                  <audio controls controlslist="nodownload">
+                    <source src="assets/images/testimonios/testimonio1.ogg">
+                  </audio>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4 mb-4">
+              <div class="grid-item">
+                <img
+                  src="assets/images/testimonios/testimonio2.jpg"
+                  class="rounded"
+                  alt=""
+                />
+                <div class="d-flex flex-column">
+                  <p class="h3">Juan Vicente Hernandez</p>
+                  <audio controls controlslist="nodownload">
+                    <source src="assets/images/testimonios/testimonio2.ogg">
+                  </audio>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4 mb-4">
+              <div class="grid-item">
+                <img
+                  src="assets/images/testimonios/testimonio3.jpg"
+                  class="rounded"
+                  alt=""
+                />
+                <div class="d-flex flex-column">
+                  <p class="h3">Viviana Arango Rojas</p>
+                  <audio controls controlslist="nodownload">
+                    <source src="assets/images/testimonios/testimonio3.ogg">
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="content-center">
+          <h2>Contactos</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mt-4">
+            <h3>No pierdas mas tiempo, <b>Contáctanos!</b></h3>
+            <p>
+              Comunícate con nosotros es ahora cuando debes decidirte y dejar
+              que manos profesionales guíen tu camino hacia esa persona que
+              tanto anhelas, deja que el destino logre su cometido y convéncete
+              que no es casualidad que te encuentres justo en este momento en
+              este sitio. Déjanos tus datos y nos pondremos en contacto contigo
+              tan pronto como nos sea posible. ¡Esperamos tener noticias tuyas!
+            </p>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    placeholder="Nombre"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="telefono"
+                    placeholder="Teléfono (opcional)"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="company"
+                    placeholder="Company name"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <a href="" class="btn btn-primary full-width">Enviar mensaje</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="politics" class="bgLightGrey">
+      <div class="container">
+        <div class="content-center">
+          <h2>Políticas de <b>privacidad</b></h2>
+        </div>
+        <div class="row mb-3">
+          <p>
+            www.maestroheracles.com, no recolectamos información financiera, ni
+            números de identificación. Los datos solicitados, será solo su
+            nombre, e-mail, teléfono en caso de que usted desee reservarlo puede
+            sustituirlo por un seudónimo no vendemos ni compartimos ningún tipo
+            de información, siendo los datos requeridos son utilizados para
+            realizar una mejor atención, para que el cliente se sienta
+            satisfecho con nuestros servicios la información enviada vía email
+            se hará bajo…
+          </p>
+        </div>
+        <div class="row">
+          <p>
+            PARA MAYORES DE 18 AÑOS. Si no tienes 18 años NO ESTÁ PERMITIDO el
+            acceso a esta página. De acuerdo a las legislaciones que se
+            encuentran vigentes: las videncias psíquicas, lectura de cartas,
+            predicciones y trabajos esotéricos tienen como finalidad entretener.
+            El servicio que se solicite no sustituye la atención médica, legal,
+            financiera, psicológica necesaria. Aceptas que accedes
+            voluntariamente a esta página y que los servicios brindados son
+            solicitados por decisión tuya, los cuales tienen un costo económico
+            el cual sera cubierto al aceptar el servicio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bgDark">
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item footer-menu">
+            <a href="#hero">Inicio</a>
+          </li>
+          <li class="list-inline-item footer-menu">
+            <a href="#portfolio">Servicios</a>
+          </li>
+          <li class="list-inline-item footer-menu">
+            <a href="#testimonial">Testimonios</a>
+          </li>
+          <li class="list-inline-item footer-menu">
+            <a href="#contact">Contactos</a>
+          </li>
+          <li class="list-inline-item footer-menu">
+            <a href="#politics">Políticas</a>
+          </li>
+        </ul>
+
+        <small
+          >©2020 All Rights Reserved.
+          <a
+            href="http://www.maestroheracles.com"
+            class="font-weight-bold"
+            target="_blank"
+            rel="noopener"
+            >www.maestroheracles.com</a
+          ></small
+        >
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Font Awasome -->
+    <script
+      src="https://kit.fontawesome.com/978fd2d0a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- particles -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particulas.js"></script>
+    <!-- WhatsAppIcon -->
+    <script src="assets/js/script2.js"></script>
+  </body>
+</html>
