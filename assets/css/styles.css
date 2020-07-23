@@ -177,7 +177,7 @@ section {
   color: var(--title-color);
 }
 .nav-link:hover {
-  color: var(--light-grey-color);
+  color: var(--white-color);
 }
 
 .navbar-toggler {
