@@ -22,7 +22,7 @@ sendBtn.addEventListener("click", () => {
   let msg = document.getElementById("whats-in").value;
   let relmsg = msg.replace(/ /g, "%20");
 
-  window.open("https://wa.me/526323188867?text=" + relmsg, "_blank");
+  window.open("https://wa.me/529991550898?text=" + relmsg, "_blank");
 });
 
 // setTimeout(() => {
