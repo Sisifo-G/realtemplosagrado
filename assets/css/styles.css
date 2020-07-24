@@ -211,7 +211,7 @@ My Video
 
 #myVideo {
   position: fixed;
-  top: -40px;
+  top: 100px;
   right: 0;
   bottom: 0;
   min-width: 100%;
