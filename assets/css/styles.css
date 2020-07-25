@@ -218,12 +218,11 @@ My Video
 }
 
 #myVideo {
-  position: fixed;
-  top: 100px;
+  position: absolute;
+  top: 20px;
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 100%;
 }
 
 /* gradiant Fixed */
@@ -243,16 +242,11 @@ My Video
 #hero {
   padding-top: 160px;
   min-height: 720px;
-  /* color: var(--white-color); */
-  /* background-color: rgba(38, 56, 89, 0.7); */
-  background-image: url("../images/vid.gif");
-  background-size: cover;
-  /*  */
 }
 
 #hero p {
   color: var(--white-color);
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   padding: 40px;
   text-shadow: 2px 2px 100px black;
 }
