@@ -72,7 +72,7 @@
   left: 0;
   top: 0;
   background-color: inherit;
-  pointer-events: none;
+  /* pointer-events: none; */
   -webkit-transform: skewX(10deg);
           transform: skewX(10deg);
 }
