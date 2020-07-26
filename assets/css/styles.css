@@ -278,7 +278,7 @@ My Video
   position: absolute;
   bottom: 25px;
   left: 25px;
-  z-index: 10;
+  z-index: 5;
 }
 
 .portfolio-details h2 {
