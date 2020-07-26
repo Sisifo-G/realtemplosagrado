@@ -161,14 +161,14 @@
   background-color: #0033ff;
 }
 .slider .box3 {
-  background-color: #00501d;
+  background-color: #002b2b;
 }
 .slider .box3 .illustration .inner {
-  background-color: #67bb7d;
+  background-color: #498383;
 }
 .slider .box3 .illustration .inner::after,
 .slider .box3 .illustration .inner::before {
-  background-color: rgba(0, 255, 68, 0.4);
+  background-color: rgba(8, 73, 73, 0.4);
 }
 .slider .box3 button {
   background-color: #359c50;
