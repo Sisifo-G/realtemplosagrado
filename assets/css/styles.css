@@ -209,22 +209,6 @@ section {
   outline: none;
 }
 
-/* ///////////
-My Video
-/////////////*/
-
-.video-fondo {
-  object-fit: contain;
-}
-
-#myVideo {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-}
-
 /* gradiant Fixed */
 
 .gradiant-fijo {
