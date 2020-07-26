@@ -101,11 +101,6 @@
             transform: translateY(-9rem);
   }
 }
-.slider .box .details h1 {
-  font-size: 3.5rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
 .slider .box .details p {
   display: inline-block;
   font-size: 1.3rem;
@@ -290,4 +285,10 @@
 
 .active {
   opacity: 1 !important;
+}
+
+/* portfolio - slide */
+
+.img-side {
+  display: inherit;
 }
