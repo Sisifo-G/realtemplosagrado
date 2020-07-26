@@ -297,5 +297,8 @@
 /* portfolio - slide */
 
 .img-side {
-  display: inherit;
+  /* display: inherit; */
+  display: inline-block;
+  align-items: center;
+  max-width: 500px;
 }
