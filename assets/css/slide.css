@@ -86,7 +86,7 @@
   }
 }
 .slider .box .details {
-  padding: 5rem;
+  padding: 3rem;
   padding-left: 10rem;
   z-index: 1;
   grid-column: 1 / span 1;

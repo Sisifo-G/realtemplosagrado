@@ -203,7 +203,7 @@ section {
 
 .navbar-toggler {
   color: var(--title-color);
-  font-size: 30px;
+  font-size: 28px;
 }
 .navbar-toggler:focus {
   outline: none;
@@ -395,13 +395,17 @@ footer .list-inline .list-inline-item {
 //////////////*/
 
 @media (max-width: 575.98px) {
-  /*  .text-logo {
-    display: none;
+  /* .text-logo {
+    font-size: 22;
   } */
 
   h1 {
     font-size: 40px;
     line-height: normal;
+  }
+
+  h3 a {
+    font-size: 20px;
   }
   .portfolio-details h2 {
     font-size: 32px;
