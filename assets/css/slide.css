@@ -102,6 +102,17 @@
     transform: translateY(-9rem);
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .content-slide {
+    top: 10px;
+  }
+
+  .slider .box .details {
+    padding-top: 0.5rem;
+  }
+}
+
 .slider .box .details p {
   display: inline-block;
   font-size: 1.3rem;
